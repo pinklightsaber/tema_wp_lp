@@ -1,0 +1,53 @@
+body{
+		margin: 0px;
+		font-family: 'Verdana';
+	}
+	.navbar {
+		background-color: transparent;
+		border: 0;
+		
+	}
+	.header_ {
+		background-image: url("images/bg.jpeg");
+		background-size: cover;
+		text-align: center;
+		color: white;
+		height: 300px;
+		padding: 50px;
+
+	}
+
+	.logo {
+		width: 100px;
+		height:30px;
+	}
+	
+	.c {
+		height: 50vh;
+
+	}
+	.azul {
+		background-color: blue;
+		color: white;
+	}
+
+	.verde {
+		background-color: green;
+		color: white;
+	}
+	
+	.f {
+		background-color: #555;
+		color: #ccc;
+		padding: 1%;
+	}
+	.vv {
+		padding: 15px;
+	}
+	 .div2 {
+	 	padding: 20px, 0, 20px, 0;
+	 	margin-bottom: 1px
+	 }
+	 .gray {
+	 	background-color: #eee;
+	 }
