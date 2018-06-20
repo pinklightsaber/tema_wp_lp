@@ -1,6 +1,7 @@
 	<?php get_header(); ?>
 	<header class="container-fluid header_">
 			<div class="container">
+
 				<h2>COMIENZA UNA NUEVA VIDA Y UNETE AL MUNDO TECNOLÓGICO</h2>
 				<button type="button" class="btn btn-default navbar-btn azul">Comienza acá</button>
 				<button type="button" class="btn btn-default navbar-btn verde">Ver más</button>
@@ -30,13 +31,14 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner c">
 		    <div class="item active">
-		      <img src="images/viewing-gallery-for-happy-people.png" alt="1">
+		    	<img src="<?php echo get_bloginfo('template_url') ?>/img/viewing-gallery-for-happy-people.png" alt="1">
 		    </div>
 		    <div class="item">
-		      <img src="images/bg22.jpeg" alt="2">
+		    	<img src="<?php echo get_bloginfo('template_url') ?>/img/bg22.jpeg" alt="2">
+		     
 		    </div>
 		    <div class="item">
-		      <img src="images/bg.jpeg" alt="3">
+		    	<img src="<?php echo get_bloginfo('template_url') ?>/img/bg.jpeg" alt="3">
 		    </div>
 		  </div>
 		  <!-- Left and right controls -->
